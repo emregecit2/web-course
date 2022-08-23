@@ -133,3 +133,33 @@ p {
     width: 100%;
   }
 }
+
+#p1 {
+  clear:both;
+  padding-top:30px;
+}
+
+#p2 {
+  color:black;
+  background-color: aqua;
+}
+
+#p3 {
+  color:black;
+  background-color: orange;
+}
+
+#s1 {
+  color:black;
+  background-color: red;
+}
+
+#s2 {
+  clear:both;
+  padding-top:30px;
+}
+
+#s3 {
+  clear: both;
+  padding-top: 30px;
+}
