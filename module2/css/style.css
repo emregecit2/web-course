@@ -1,5 +1,3 @@
-<style>
-
 /********** Base styles **********/
 * {
   box-sizing: border-box;
@@ -9,9 +7,9 @@ h1 {
 }
 
 div {
-  float: left;
-  position: relative;
+  clear: right;
 }
+
 
 p {
   border: 1px solid black;
@@ -22,6 +20,7 @@ p {
   margin-left: 20px;
   font-family: Helvetica;
   color: black;
+  clear: both;
 }
 
 /* Simple Responsive Framework. */
@@ -30,12 +29,13 @@ p {
 }
 
 .section-title {
-  position: absolute;
-  float: right;
-  right: 0px;
-  top: 0px;
-  width: 30%;
-  height: 30%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 30%;
+    height: 15%;
+    padding: 5px;
+    clear: both;
 }
 
 /********** Large devices only **********/
@@ -133,5 +133,3 @@ p {
     width: 100%;
   }
 }
-
-</style>
