@@ -1,0 +1,30 @@
+section {
+    height: 1000px;
+    background-color: gray;
+}
+
+.container-fluid {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    color:black !important;
+}
+
+.icon-bar {
+    background-color:black !important;
+}
+
+body {
+    color: black !important;
+}
+
+.navbar {
+    background-color: gray;
+    color: black;
+}
+
+.dropdown-item {
+    color: black !important;
+}
